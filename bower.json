@@ -1,0 +1,25 @@
+{
+  "name": "svvt-projects",
+  "version": "0.0.1",
+  "homepage": "https://github.com/TDA/svvt-projects",
+  "authors": [
+    "Sai Pc <schand31@asu.edu>"
+  ],
+  "description": "Projects for SVVT class",
+  "main": "proj1/tests/index.html",
+  "keywords": [
+    "SVVT"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}
