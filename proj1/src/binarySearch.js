@@ -5,11 +5,11 @@ function binarySearch(array, start, end, element) {
   // takes in an array with indices that are integers
   // array can contain strings/floats/integers as values
 
-  // Data Flow Anomaly: multiple declarations of same variable
+  // Data Flow Anomaly: multiple declarations of same variable (write-write anomaly)
   var mid = 1;
   var mid = Math.floor((start + end) / 2);
   console.log('Searching from ', start, 'to', mid, 'to', end);
-  // comparison to self
+  // Data Flow Anomaly: comparison to self – dead code
   if (mid < mid) {
     //do nothing
   }
