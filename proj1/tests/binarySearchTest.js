@@ -4,6 +4,7 @@
 var chai = require('chai');
 var assert = chai.assert;
 var binarySearch = require('../src/binarySearch');
+
 describe('binary search', function () {
   var pos;
   var array;
